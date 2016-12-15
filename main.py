@@ -3,6 +3,7 @@ This will import all modules with name groupN.py (1 <= N <= 50)
 and print the result of the corresponding tweet() function
 implemented in groupN.py.
 """
+from group5 import tweet
 
 for i in range(1, 51):
     module_name = "group{}".format(i)
